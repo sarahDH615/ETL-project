@@ -1,4 +1,4 @@
-Country,Country_id,date,total_vaccinations,avg_daily_vaccinations
+Country,Country_id,vaccination_date,total_vaccinations,avg_daily_vaccinations
 United Arab Emirates,ARE,2021-01-26,2677680.0,77424.36363636363
 Argentina,ARG,2021-01-26,305880.0,10989.206896551725
 Austria,AUT,2021-01-26,185643.0,7936.636363636364
