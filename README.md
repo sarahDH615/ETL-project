@@ -47,7 +47,7 @@ In order to create this junction table, the vaccination and travel restrictions 
 From our ERD work, we exported a SQL file for input into our SQL database Covid_restrictions_db, resulting in empty tables. We then created a new Jupyter Notebook, merging_notebook, for inserting the data into those tables. Each of the cleaned CSVs were read into the notebook, and, after establishing a conection to the database and dropping any existing table rows (to ensure duplicates wouldn’t be added if the code was run multiple times), was read into the corresponding Covid_restrictions_db empty table. Finally, we checked the proper entry of values by conducting some select all queries within the notebook. 
 
 
-<ins> References</ins>
+## <ins> References</ins>
 
 Buggaveeti, Padmaja. (2021 January 27). Covid Vaccination Dataset - 2021. Kaggle. https://www.kaggle.com/padmajabuggaveeti/covid-vaccination-dataset-2021. Accessed 2021 February 11. 
 
