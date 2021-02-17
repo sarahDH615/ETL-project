@@ -11,14 +11,11 @@ Antigua and Barbuda,ATG
 Argentina,ARG
 Armenia,ARM
 Aruba,ABW
-Ashmore and Cartier Islands,AUS
 Australia,AUS
 Austria,AUT
 Azerbaijan,AZE
-Azores Islands,PRT
 Bahamas,BHS
 Bahrain,BHR
-Baker Island,UMI
 Bangladesh,BGD
 Barbados,BRB
 Belarus,BLR
@@ -27,7 +24,6 @@ Belize,BLZ
 Benin,BEN
 Bermuda,BMU
 Bhutan,BTN
-Bird Island,VEN
 Bolivia,BOL
 Bonaire,BES
 Bosnia and Herzegovina,BIH
@@ -42,7 +38,6 @@ Burundi,BDI
 Cambodia,KHM
 Cameroon,CMR
 Canada,CAN
-Canary Islands,ESP
 Cape Verde,CPV
 Cayman Islands,CYM
 Central African Republic,CAF
@@ -51,7 +46,6 @@ Chagos Archipelagio,IOT
 Chile,CHL
 China,CHN
 Christmas Island,CXR
-Clipperton Island,PYF
 Cocos (Keeling) Islands,CCK
 Colombia,COL
 Comoros,COM
@@ -89,7 +83,6 @@ French Polynesia,PYF
 French Southern Territories,ATF
 Gabon,GAB
 Gambia,GMB
-Gaza,PSE
 Georgia,GEO
 Germany,DEU
 Ghana,GHA
@@ -109,7 +102,6 @@ Heard Island and McDonald Islands,HMD
 Holy See,VAT
 Honduras,HND
 Hong Kong,HKG
-Howland Island,UMI
 Hungary,HUN
 Iceland,ISL
 India,IND
@@ -122,13 +114,10 @@ Israel,ISR
 Italy,ITA
 Jamaica,JAM
 Japan,JPN
-Jarvis Island,UMI
 Jersey,JEY
-Johnston Atoll,UMI
 Jordan,JOR
 Kazakhstan,KAZ
 Kenya,KEN
-Kingman Reef,UMI
 Kiribati,KIR
 Kosovo,RKS
 Kuwait,KWT
@@ -144,7 +133,6 @@ Lithuania,LTU
 Luxembourg,LUX
 Macao,MAC
 Madagascar,MDG
-Madeira Islands,PRT
 Malawi,MWI
 Malaysia,MYS
 Maldives,MDV
@@ -157,7 +145,6 @@ Mauritius,MUS
 Mayotte,MYT
 Mexico,MEX
 Micronesia (Federated States of),FSM
-Midway Island,UMI
 Monaco,MCO
 Mongolia,MNG
 Montenegro,MNE
@@ -167,7 +154,6 @@ Mozambique,MOZ
 Myanmar,MMR
 Namibia,NAM
 Nauru,NRU
-Navassa Island,UMI
 Nepal,NPL
 Netherlands,NLD
 New Caledonia,NCL
@@ -183,7 +169,6 @@ Norway,NOR
 Oman,OMN
 Pakistan,PAK
 Palau,PLW
-Palmyra Atoll,UMI
 Panama,PAN
 Papua New Guinea,PNG
 Paraguay,PRY
@@ -200,7 +185,6 @@ Romania,ROU
 Russian Federation,RUS
 Rwanda,RWA
 Réunion,REU
-Saba,ANT
 Saint Barthélemy,BLM
 Saint Helena,SHN
 Saint Kitts and Nevis,KNA
@@ -217,7 +201,6 @@ Serbia,SRB
 Seychelles,SYC
 Sierra Leone,SLE
 Singapore,SGP
-Sint Eustatius,ANT
 Sint Maarten,SXM
 Slovakia,SVK
 Slovenia,SVN
@@ -266,7 +249,3 @@ Yemen,YEM
 Zambia,ZMB
 Zimbabwe,ZWE
 Åland Islands,ALA
-,SOL
-,VIR
-,XKX
-,OWID_WRL

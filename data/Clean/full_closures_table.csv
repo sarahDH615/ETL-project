@@ -85,7 +85,6 @@ CH39,PYF,COMPLETE,WORK_EXCEP,2020-07-22,1,"citizens, permanent residents, family
 CK5,SHN,COMPLETE,WORK_EXCEP,2020-03-26,1,"St Helena Status citizens, St Helena residents, holders of long term entry permits",0,no policy,1
 EB56,SJM,COMPLETE,SPECIFIC_COUNTRY,2020-07-15,0,no policy,1,"Denmark, Sweden, Finland, Iceland, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland, United Kingdom ",0
 LM12,SLE,COMPLETE,ESSENTIAL_ONLY,2020-05-03,0,no policy,0,no policy,0
-NL61,SOL,COMPLETE,ESSENTIAL_ONLY,2020-03-26,0,no policy,0,no policy,0
 671,SRB,COMPLETE,CITIZEN_EXCEP,2020-03-15,1,citizens,0,no policy,0
 10521,SSD,COMPLETE,ESSENTIAL_ONLY,2020-03-23,0,no policy,0,no policy,0
 MG30,SUR,COMPLETE,CITIZEN_EXCEP,2020-04-09,1,citizens,0,no policy,0
@@ -101,9 +100,7 @@ CH27,TTO,COMPLETE,ESSENTIAL_ONLY,2020-07-21,0,no policy,0,no policy,0
 BW10,URY,COMPLETE,CITIZEN_EXCEP,2020-03-24,1,"Nationals, permanent residents",0,no policy,0
 BW27,VAT,COMPLETE,WORK_EXCEP,2020-03-10,1,Citizens,0,no policy,1
 CK10,VGB,COMPLETE,CITIZEN_EXCEP,2020-04-14,1,"citizens, residents",0,no policy,0
-EB38,VIR,COMPLETE,WORK_EXCEP,2020-08-19,1,"citizens, permanent residents",0,no policy,1
 17275,VNM,COMPLETE,ESSENTIAL_ONLY,2020-06-24,0,no policy,0,no policy,0
 16996,VUT,COMPLETE,CITIZEN_EXCEP,2020-11-11,1,"Citizens, permanent residents",0,no policy,0
 SN16,WLF,COMPLETE,ESSENTIAL_ONLY,2020-03-24,0,no policy,0,no policy,0
-MS85,XKX,COMPLETE,CITIZEN_EXCEP,2020-03-16,1,citizens,0,no policy,0
 1956,ZWE,COMPLETE,CITIZEN_EXCEP,2020-03-23,1,"citizens, residents",0,no policy,0
