@@ -38,7 +38,7 @@ All three datasets went through a similar overall process: a subset of columns b
 
 We decided to use a SQL database for our data, as it was possible for our data to be stored in rectangular tables. However, some steps needed to be taken to transform our cleaned CSVs into an appropriate database. This pre-work was done at the end of the policy_clean notebook. 
 
-The vaccinations, travel restrictions, and six immigration policy CSVs were all in the correct form for being made into SQL tables. However, they still needed to be linked to each other, through a joining table of Country and Country ID. This database plan can be seen in our [ERD](Covid_restrictions_ERD.png). The database contains seven tables: 'country', 'vaccinations', 'travel_restrictions', 'full_closures', 'no_closures', 'partial_borders', 'partial_visa', 'partial_citizenship' and 'partial_history'. 
+The vaccinations, travel restrictions, and six immigration policy CSVs were all in the correct form for being made into SQL tables. However, they still needed to be linked to each other, through a joining table of Country and Country ID. This database plan can be seen in our [ERD](Covid_restrictions_ERD.png). The database contains nine tables: 'country', 'vaccinations', 'travel_restrictions', 'full_closures', 'no_closures', 'partial_borders', 'partial_visa', 'partial_citizenship' and 'partial_history'. 
 
 In order to create this junction table, the vaccination and travel restrictions CSVs were read into the Policy notebook. Each dataframe was reduced to its Country and Country ID columns. The three dataframes were merged together in two steps, and the resulting dataframe was checked for duplicates and null values, sorted by Country name, and exported.
 
