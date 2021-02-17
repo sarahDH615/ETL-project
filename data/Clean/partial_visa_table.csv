@@ -1,0 +1,10 @@
+Policy_id,Policy_type,Policy_subtype,Policy_start_date,Visa_ban_list,Visa_ban_info
+5314,PARTIAL,VISA_BAN,2020-04-03,specific,New visa seekers and existing valid visa holders
+CJ16,PARTIAL,VISA_BAN,2020-09-23,All,no policy
+7684,PARTIAL,VISA_BAN,2020-04-21,specific,"China, Hong Kong"
+MG41,PARTIAL,VISA_BAN,2020-09-25,specific,"only accpeting certain long-stay visas which include categories such as Third level study at primary degree and postgraduate level, Employment and Join Family"
+EB3,PARTIAL,VISA_BAN,2020-06-02,specific,countries with increasing COVID-19 infections remains suspended
+2911,PARTIAL,VISA_BAN,2020-03-27,All,no policy
+140490,PARTIAL,VISA_BAN,2020-08-21,specific,Participants in the Formula 1 Russian Grand Prix will be granted free visas without any restrictions
+138408,PARTIAL,VISA_BAN,2020-09-15,All,no policy
+BW33,PARTIAL,VISA_BAN,2020-10-13,All,no policy
