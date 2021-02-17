@@ -1,0 +1,109 @@
+Policy_id,Country_id,Policy_type,Policy_subtype,Policy_start_date,Citizen_exceptions,Citizen_exceptions_info,Country_exceptions,Country_exceptions_info,Work_exceptions
+CH8,ABW,COMPLETE,SPECIFIC_COUNTRY,2020-07-10,1,"residents with prior authorization, non-resident passengers which are granted upon request",1,"Antiga and Barbuda, The Bahamas, Barbados, Cuba, Dominica, Grenada, Jamaica, Saint Kitts and Nevis, Saint Lucia, Saint Vincent, the Grenadines, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Swedan, Liechtenstein, Iceland, Norway, Switzerland, United Kingdom, Canada, Trinidad and Tobago, Anguilla, Virgin Islands British, Cayman Islands, Curaçao, Martinique, Montserrat, Nueva Esparta, Puerto Rico, Saint Barthélemy, Saint Martin, Sint Eustatius Saba, Sint Maarten, Turks and Caicos Islands, United States Virgin Islands, United States",0
+CK4,AIA,COMPLETE,SPECIFIC_COUNTRY,2020-07-12,1,"citizens, residents",1,"Aruba, Bonaire, St Eustatius and Saba, Belize, British Virgin Islands, Curacao, Dominica, Montserrat, Saint Barthelemy, St. Kitts/Nevis, St. Lucia, Saint Maarten/Saint Martin, US Virgin Islands, St. Vincent/Grenadines, Suriname, Bahamas, Trinidad and Tobago, Turks and Caicos Islands, Jamaica, Antigua and Barbuda, Bermuda, Cayman Islands, Barbados, Martinique, Guyana, Cuba, Grenada, Guadeloupe, France, Germany, Italy, Portugal, Spain",0
+EB65,ALA,COMPLETE,WORK_EXCEP,2020-11-19,1,"nationals of Finland, family members of nationals of Finland, passengers with a residence permit issued by Finland, residents of Finland with a British passport, residents of Finland who are nationals of  Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland (Rep.), Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden or Switzerland and their family members",1,"Vactican City, Australia, South Korea, Japan, Rwanda, Signapore, Thailand, Uruguay, New Zealand, ",1
+NL75,ASM,COMPLETE,CITIZEN_EXCEP,2020-12-01,1,citizens,0,no policy,0
+EB18,ATG,COMPLETE,SPECIFIC_COUNTRY,2020-04-23,0,no policy,1,Dominican Republic,0
+138822,AUS,COMPLETE,SPECIFIC_COUNTRY,2020-10-16,1,"Australian Citizens, permanent residents in Australia, immediate family of Australian citizens or permanent residents, New Zealand citizens residing in Australia",1,New Zealand (quarantine free travel if people who have have been in New Zealand for 14 days or more and not been in a designated hotspot (still requires visa for non New Zealand citizens)),0
+EB79,BES,COMPLETE,WORK_EXCEP,2020-11-20,1,"citizens, permanent residents",1,"Saba, Antiga, Anguilla, Montserrat, Saint Vincent, Saint Kits and Nevis",1
+CK11,BGR,COMPLETE,SPECIFIC_COUNTRY,2020-07-16,1,"citizens, residents",1,"The Republic of Austria, The Kingdom of Netherlands, The Federal Republic of Germany, The Republic of Poland, The Hellenic Republic, The Kingdom of Denmark, Romania, The Republic of Estonia, The Slovak Republic, The Republic of Slovenia, The Republic of Finland, The Republic of Cyprus, The French Republic, The Republic of Latvia, The Republic of Croatia, The Republic of Lithuania, The Czech Republic, The Grand Duchy of Luxembourg, Iceland, The Kingdom of Norway, The Principality of Liechtenstein, The Swiss Confederation, The Republic of San Marino,The Principality of Andorra, The Principality of Monaco, The Vatican City State, The Republic of Malta, The Italian Republic, The Kingdom of Spain, The Republic of Ireland, The Kingdom of Belgium, The United Kingdom of Great Britain and Northern Ireland, The People’s Democratic Republic of Algeria, The Commonwealth of Australia, Canada, Georgia, Japan, The Kingdom of Morocco, New Zealand, The Republic of Rwanda, The Republic of Korea, The Kingdom of Thailand, The Republic of Tunisia, The Oriental Republic of Uruguay, Ukraine",0
+EB11,BHR,COMPLETE,CITIZEN_EXCEP,2020-06-04,1,"citizens, permanent residents",0,no policy,0
+4881,BHS,COMPLETE,ESSENTIAL_ONLY,2020-03-24,0,no policy,0,no policy,0
+MS76,BLM,COMPLETE,SPECIFIC_COUNTRY,2020-03-17,1,"citizens, family",1,"Saint-Martin, Guadeloupe, Martinique, France",0
+CK6,BMU,COMPLETE,WORK_EXCEP,2020-03-23,1," citizens, residents and dependent of residents ",0,no policy,1
+NL5,BOL,COMPLETE,CITIZEN_EXCEP,2020-05-31,1,"citizens, residents, diplomats",0,no policy,0
+12934,BRA,COMPLETE,CITIZEN_EXCEP,2020-05-22,1,"Residents, Brazilian Nationals, Humanitarian Aid Workers",0,no policy,0
+EB47,BRB,COMPLETE,ESSENTIAL_ONLY,2020-04-17,0,no policy,0,no policy,0
+EB90,BRN,COMPLETE,WORK_EXCEP,2020-09-21,1,"citizens, permanent residents",0,no policy,1
+7136,BTN,COMPLETE,ESSENTIAL_ONLY,2020-09-08,0,no policy,0,no policy,0
+LM21,BWA,COMPLETE,CITIZEN_EXCEP,2020-04-30,1,"citizens, residents",0,no policy,0
+ch31,CAN,COMPLETE,WORK_EXCEP,2020-09-17,1,"citizens, permanent residents, family members of citizens and permanent residents",0,no policy,1
+NL73,CCK,COMPLETE,SPECIFIC_COUNTRY,2020-09-02,1,"residents, essential staff",1,Western Australia,0
+11474,COG,COMPLETE,ESSENTIAL_ONLY,2020-03-31,0,no policy,0,no policy,0
+EB60,COK,COMPLETE,WORK_EXCEP,2020-08-30,1,"citizens, permanent residents",0,no policy,1
+15426,COL,COMPLETE,ESSENTIAL_ONLY,2020-07-08,0,no policy,0,no policy,0
+2684,COM,COMPLETE,CITIZEN_EXCEP,2020-03-23,1,Yes,0,no policy,0
+139038,CRI,COMPLETE,SPECIFIC_COUNTRY,2020-11-01,1,residents,1,Authorities will ease restrictions on international tourism from November 1 by allowing tourists to enter the country regardless of their country of departure as authorities gradually ease restrictions imposed due to the coronavirus disease (COVID-19) pandemic.,0
+MG29,CUW,COMPLETE,SPECIFIC_COUNTRY,2020-10-27,1,residents,1,"Anguillla, Antigua and Barbuda, Aruba, Austria, Azerbaijan, Barbados, Bermuda, Bonaire, St. Eustatius and Saba, Canada, Cayman Isl., China (People's Rep.), Taiwan, Cuba, Denmark, Dominica, Finland, French Guiana, Germany, Greece, Grenada, Guyana, Hong Kong, Hungary, India, Italy, Jamaica, Monteserrat, Morocco, Netherlands, New Zealand, Norway, Poland, St. Barthelemy, St. Kitts and Nevis, St. Lucia, St. Maarten, St. Vincent and the Grenadines, Suriname, Sweden, Trinidad and Tobago, Turkey, Turks and Caicos Isl., Uruguay, Virgin Isl. (British), United States",0
+EB95,CYP,COMPLETE,SPECIFIC_COUNTRY,2020-12-21,1,"citizens, permanent residents, family of citizens and permanent residents",1,"Australia, China, Denmark, Estonia, Finland, Germany, Greece, Hong Kong, Japan, South Korea, Latvia, Lithuania, New Zealand, Norway, Rwanda, San Marino, Serbia, Singapore, Sweden, Thailand, United Kingdom, Uruguay, Vatican City",0
+CH10,DMA,COMPLETE,CITIZEN_EXCEP,2020-04-16,1,"citizens, permanent residents",0,no policy,0
+3333,ERI,COMPLETE,ESSENTIAL_ONLY,2020-03-25,0,no policy,0,no policy,0
+MS71,ESH,COMPLETE,ESSENTIAL_ONLY,2020-03-19,0,no policy,0,no policy,0
+LM25,ESP,COMPLETE,WORK_EXCEP,2020-07-04,1,"Citizens, ",1,"Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Sweden, Switzerland, Andorra, Monaco, Holy See, San Marino, Algeria, Australia, Canada, Georgia, Japan, Montenegro, Morocco, New Zealand, Rwanda, Serbia, South Korea, Thailand, Tunisia, Uruguay, China ",1
+RM3,EST,COMPLETE,SPECIFIC_COUNTRY,2020-09-13,1,"citizens, permanent residents",1,"Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Australia, Canada, Georgia, Japan, New Zealand, Rwanda, South Korea, Thailand, Tunisia, Uruguay, United Kingdom, Ireland, Andorra, Monaco, San Marino, Vatican City, ",0
+MG45,EUR,COMPLETE,WORK_EXCEP,2020-10-27,1,residents,1,"Australia, Japan, New Zealand, Rwanda, Singapore, South Korea, Thailand, Uruguay, subject to confirmation of reciprocity China, Hong Kong, Macao",1
+MG54,FIN,COMPLETE,WORK_EXCEP,2020-11-09,1,"nationals of Finland, family members of nationals of Finland, passengers with a residence permit issued by Finland, residents of Finland with a British passport, residents of Finland who are nationals of  Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland (Rep.), Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden or Switzerland and their family members",1,"Vactican City, Australia, South Korea, Japan, Rwanda, Signapore, Thailand, Uruguay, New Zealand",1
+EB81,FJI,COMPLETE,ESSENTIAL_ONLY,2020-03-30,0,no policy,0,no policy,0
+CK16,FLK,COMPLETE,WORK_EXCEP,2020-04-08,1,"citizens, residents",0,no policy,1
+CH48,FRA,COMPLETE,WORK_EXCEP,2020-12-23,1,"citizens, permanent residents, family members of citizens and permanent residents",1,"Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Andorra, Australia, the Holy See, Iceland, Japan, Liechtenstein, Monaco, New Zealand, Norway, Rwanda, San Marino, South Korea, Singapore, Switzerland, Thailand, the United Kingdom",1
+MG25,FRO,COMPLETE,WORK_EXCEP,2020-06-27,1,residents,1,"Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Iceland, Norway, Switzerland, Liechtenstein, United Kingdom",1
+EB85,FSM,COMPLETE,ESSENTIAL_ONLY,2020-04-15,0,no policy,0,no policy,0
+11942,GEO,COMPLETE,ESSENTIAL_ONLY,2020-03-21,0,no policy,0,no policy,0
+NL80,GLP,COMPLETE,SPECIFIC_COUNTRY,2020-06-08,1,"reunification, essential workers, citizens",1,"Martinique, Saint Barthelemy, St. Martin",0
+1267,GNB,COMPLETE,ESSENTIAL_ONLY,2020-03-17,0,no policy,0,no policy,0
+MG36,GRL,COMPLETE,WORK_EXCEP,2020-10-31,1,"nationals, residents, foreign spouses and/or children of citizens, those the Danish government determines have worthy purpose of travel",1,"Australia, Japan, New Zealand, Singapore, South Korea, Thailand, Uruguay",1
+8961,GTM,COMPLETE,CITIZEN_EXCEP,2020-04-26,1,"citizens, permanent residents, temporary residents, diplomats residing in Guatemala",0,no policy,0
+MS83,GUF,COMPLETE,CITIZEN_EXCEP,2020-03-23,1,"residents, family",0,no policy,0
+WY1,HTI,COMPLETE,CITIZEN_EXCEP,2020-04-14,1,does not apply to domestic flights,0,no policy,0
+140076,HUN,COMPLETE,SPECIFIC_COUNTRY,2020-09-01,1,"including citizens, permanent residents",1," Czech Republic, Poland, Slovakia",0
+11248,IDN,COMPLETE,WORK_EXCEP,2020-04-01,1,"citizens, permanent residents",0,no policy,1
+MS73,IMN,COMPLETE,CITIZEN_EXCEP,2020-03-23,1,"citizens, residents",0,no policy,0
+BW24,ISL,COMPLETE,WORK_EXCEP,2020-11-04,1,"Citizens, permanent residents, family members of citizens",1,"EU, EFTA, UK nationals, Australia, Canada, Georgia, Japan, New Zealand, Rwanda, South Korea, Thailand, Tunisia and Uruguay ",1
+BW26,ITA,COMPLETE,SPECIFIC_COUNTRY,2020-10-24,1,"Citizens, permanent residents",1,"EU, EFTA, UK nationals, Australia, Canada, Georgia, Japan, New Zealand, Romania, Rwanda, The Republic of Korea, Thailand, Tunisia, Uruguay",0
+NL90,JPN,COMPLETE,CITIZEN_EXCEP,2021-01-13,1,residents,0,no policy,0
+559,KAZ,COMPLETE,CITIZEN_EXCEP,2020-03-16,1,"citizens, foreigners with residence permits, family of citizens",0,no policy,0
+8358,KGZ,COMPLETE,CITIZEN_EXCEP,2020-03-17,1,citizens,0,no policy,0
+EB50,KIR,COMPLETE,CITIZEN_EXCEP,2020-03-23,1,"citizens, permanent residents",0,no policy,0
+CH20,LCA,COMPLETE,SPECIFIC_COUNTRY,2020-07-03,1,"citizens, permanent residents, family members of citizens and permanent residents",1,"Antigua, Barbuda, Aruba, Anguilla, Bahamas, Barbados, Bermuda, Bonaire, British Virgin Islands, Curaçao, Dominica, Grenada, Guyana, Jamaica, Monsterrat, Saint Barthelemy, Saint Kitts and Nevis, Saint Martin, Saint Vincent and the Grenadines, Saint Martin, Trinidad and Tobago and Turks and Caicos",0
+LM23,LSO,COMPLETE,WORK_EXCEP,2020-04-21,1,"citizens, residents",0,no policy,1
+16077,LTU,COMPLETE,SPECIFIC_COUNTRY,2020-07-13,1,citizens,1,"Hungary, Malta, Finland, Estonia, Cyprus, Latvia, Norway, Greece, Slovakia, Italy, Netherlands, Denmark, Liechtenstein, Germany, Belgium, Poland, Slovenia, Spain, Austria, Switzerland, France, United Kingdom, Iceland, Czech Republic, Croatia",0
+MS19,MAC,COMPLETE,WORK_EXCEP,2020-03-18,1,"Citizens, Permanent residents",1,"China, Hong Kong, Taiwan",1
+LM19,MAR,COMPLETE,CITIZEN_EXCEP,2020-07-15,1,"Citizens, Residents ",0,no policy,0
+1454,MHL,COMPLETE,ESSENTIAL_ONLY,2020-03-08,0,no policy,0,no policy,0
+1276,MKD,COMPLETE,CITIZEN_EXCEP,2020-03-18,1,"citizens, permanent residents ",0,no policy,0
+HR1,MLT,COMPLETE,SPECIFIC_COUNTRY,2020-07-14,1,"citizens, permanent residents ",1,"Andorra, Australia, Austria, Belgium, Bulgaria, Canada, China (People's Rep.), Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Indonesia, Ireland (Rep.), Italy, Japan, Jordan, Korea (Rep.), Latvia, Lebanon, Liechtenstein, Lithuania, Luxembourg, Monaco, Morocco, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Rwanda, San Marino, Slovakia, Slovenia, Spain, Switzerland, Thailand, Tunisia, Turkey, United Arab Emirates, United Kingdom, Uruguay or Vatican City",0
+BW45,MNE,COMPLETE,SPECIFIC_COUNTRY,2020-07-22,1,"Citizens, permanent residents",1,"Albania, Algeria, Andorra, Australia, Austria, Bahamas, Barbados, Belarus, Belgium, Bosnia and Herzegovina, Brunei Darussalam, Bulgaria, Cambodia, Canada, China (People's Rep.), Costa Rica, Croatia, Cuba, Cyprus, Czechia, Denmark, Estonia, Fiji, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Indonesia, Ireland (Rep.), Israel, Italy, Jamaica, Japan, Jordan, Korea (Rep.), Kosovo (Rep.), Latvia, Lebanon, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malaysia, Malta, Mauritius, Mongolia, Morocco, Mozambique, Netherlands, New Zealand, Nicaragua, Norway, Palestinian Territory, Papua New Guinea, Paraguay, Philippines, Poland, Portugal, Romania, Senegal, Seychelles, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, Tajikistan, Thailand, Trinidad and Tobago, Tunisia, Turkey, Ukraine, United Arab Emirates, United Kingdom, Uruguay, Uzbekistan, Venezuela, Viet Nam, Zambia ",0
+9089,MNG,COMPLETE,CITIZEN_EXCEP,2020-03-19,1,"nationals of Mongolia, and residents who are direct family members of nationals ",0,no policy,0
+1911,MRT,COMPLETE,ESSENTIAL_ONLY,2020-03-22,0,no policy,0,no policy,0
+MS75,MSR,COMPLETE,CITIZEN_EXCEP,2020-04-13,1,citizens,0,no policy,0
+SN11,MTQ,COMPLETE,CITIZEN_EXCEP,2020-03-23,1," Reunification of families with children or dependent person, Professional obligations strictly necessary for the continuity of essential services, health requirements",0,no policy,0
+LM15,NAM,COMPLETE,CITIZEN_EXCEP,2020-08-29,1,"Citizens, Namibian Nationals",0,no policy,0
+CH41 ,NCL,COMPLETE,SPECIFIC_COUNTRY,2020-03-20,1,"citizens, permanent residents, family members of citizens and permanent residents",1,Wallis and Futuna,0
+MS80,NFK,COMPLETE,SPECIFIC_COUNTRY,2020-07-10,1,residents,1,Australia,0
+9614,NGA,COMPLETE,CITIZEN_EXCEP,2020-04-22,1,Citizens,0,no policy,0
+16114,NLD,COMPLETE,SPECIFIC_COUNTRY,2020-07-01,1,citizens,1,"Switzerland, Liechtenstein, Norway, Iceland, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Finland, France, Germany, Greece, Hungary, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Algeria, Australia, Canada, Georgia, Japan, Montenegro, Morocco, New Zealand, Rwanda, Serbia, South Korea, Thailand, Tunisia, Uruguay",0
+16086,NOR,COMPLETE,SPECIFIC_COUNTRY,2020-07-15,1,"citizens, family and romantic partners of citizens",1,"Austria, Belgium, Luxembourg, Netherlands, Germany, France, Spain, Portugal, Sweden, Finland, Denmark, Lithuania, Latvia, Estonia, Poland, Slovakia, Hungary, Slovenia, Italy, Greece, Czech Republic, Malta, Romania, Bulgaria, Croatia",0
+138648,NPL,COMPLETE,CITIZEN_EXCEP,2020-04-01,1,selected entry,0,no policy,0
+NL83,NRU,COMPLETE,SPECIFIC_COUNTRY,2020-08-04,1,"citizens, essential workers",1,Australia,0
+142725,NZL,COMPLETE,WORK_EXCEP,2020-12-04,1,"residents, essential staff, medical necessities, national interest",1,"Australia, Pacific Islands",1
+1192,PAN,COMPLETE,CITIZEN_EXCEP,2020-03-16,1,"nationals, residents",0,no policy,0
+MS72,PCN,COMPLETE,CITIZEN_EXCEP,2020-03-12,1,citizens,0,no policy,0
+17525,PRK,COMPLETE,ESSENTIAL_ONLY,2020-08-02,0,no policy,0,no policy,0
+CH39,PYF,COMPLETE,WORK_EXCEP,2020-07-22,1,"citizens, permanent residents, family members of citizens and permanent residents",1,"Andorra, Monaco, San Marino, Switzerland, United Kingdom, Holy See, Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, ",1
+13374,RWA,COMPLETE,CITIZEN_EXCEP,2020-03-21,1,"citizens, legal residents",0,no policy,0
+16927,SGP,COMPLETE,WORK_EXCEP,2020-09-20,1,"citizens, permanent residents, family members of citizens and permanent residents",1,"Australia, Brunei Darussalem, China, New Zealand, Viet Nam",1
+CK5,SHN,COMPLETE,WORK_EXCEP,2020-03-26,1,"St Helena Status citizens, St Helena residents, holders of long term entry permits",0,no policy,1
+EB56,SJM,COMPLETE,SPECIFIC_COUNTRY,2020-07-15,0,no policy,1,"Denmark, Sweden, Finland, Iceland, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland, United Kingdom ",0
+LM12,SLE,COMPLETE,ESSENTIAL_ONLY,2020-05-03,0,no policy,0,no policy,0
+NL61,SOL,COMPLETE,ESSENTIAL_ONLY,2020-03-26,0,no policy,0,no policy,0
+671,SRB,COMPLETE,CITIZEN_EXCEP,2020-03-15,1,citizens,0,no policy,0
+10521,SSD,COMPLETE,ESSENTIAL_ONLY,2020-03-23,0,no policy,0,no policy,0
+MG30,SUR,COMPLETE,CITIZEN_EXCEP,2020-04-09,1,citizens,0,no policy,0
+2693,SWZ,COMPLETE,CITIZEN_EXCEP,2020-03-27,1,"citizens, legal residents",0,no policy,0
+MG10,SXM,COMPLETE,SPECIFIC_COUNTRY,2020-11-10,1,"citizens, permanent residents, family members of citizens and permanent residents",1,"Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, Belgium, Bonaire, St. Eustatius and Saba, Canada, Cayman Isl., China (People's Rep.), Croatia, Cuba, Curacao, Cyrpus Dominica, Domincan Republic, Estonia, Finland, France, French West Indies, Germany, Grenada, Hungary, Italy, Jamaica, Latvia, Liechtenstein, Lithuania, Montserrat, Netherlands, Norway, Panama, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, St. Bartelemy, St. Kitts and Nevis, St. Lucia, St. Vincent and the Grenadines, Sweden, Switzerland, Trinidad and Tobago, Turks and Caicos Isl., United States, Virgin Isl. (British)",0
+16549,SYC,COMPLETE,SPECIFIC_COUNTRY,2020-08-05,1,"citizens, permanent residents",1,"Austria , Germany, Monaco, United Arab Emirates, Belgium, Hungary, New Zealand, Canada, Iceland, Norway, China, Ireland, Slovakia, Cuba, Italy, Slovenia, Cyprus, Latvia, South Korea, Denmark, Lithuania, Sri Lanka, Estonia, Malaysia, Switzerland, Finland,	Malta, Thailand, France, Mauritius, Tunisia",0
+MS77,TCA,COMPLETE,ESSENTIAL_ONLY,2020-03-26,0,no policy,0,no policy,0
+WY2,TKL,COMPLETE,WORK_EXCEP,2020-03-21,1,approved 20 students and their dependents stranded in Fiji to seek protection in New Zealand with families,0,no policy,1
+8543,TLS,COMPLETE,WORK_EXCEP,2020-03-28,1,"foreigners born in Timor-Leste, resident citizens and legal representatives of minors of Timorese nationality",0,no policy,1
+CH27,TTO,COMPLETE,ESSENTIAL_ONLY,2020-07-21,0,no policy,0,no policy,0
+790,TUN,COMPLETE,ESSENTIAL_ONLY,2020-03-18,0,no policy,0,no policy,0
+17904,UKR,COMPLETE,WORK_EXCEP,2020-08-29,1,"Citizens, permanent residents",0,no policy,1
+BW10,URY,COMPLETE,CITIZEN_EXCEP,2020-03-24,1,"Nationals, permanent residents",0,no policy,0
+BW27,VAT,COMPLETE,WORK_EXCEP,2020-03-10,1,Citizens,0,no policy,1
+CK10,VGB,COMPLETE,CITIZEN_EXCEP,2020-04-14,1,"citizens, residents",0,no policy,0
+EB38,VIR,COMPLETE,WORK_EXCEP,2020-08-19,1,"citizens, permanent residents",0,no policy,1
+17275,VNM,COMPLETE,ESSENTIAL_ONLY,2020-06-24,0,no policy,0,no policy,0
+16996,VUT,COMPLETE,CITIZEN_EXCEP,2020-11-11,1,"Citizens, permanent residents",0,no policy,0
+SN16,WLF,COMPLETE,ESSENTIAL_ONLY,2020-03-24,0,no policy,0,no policy,0
+MS85,XKX,COMPLETE,CITIZEN_EXCEP,2020-03-16,1,citizens,0,no policy,0
+1956,ZWE,COMPLETE,CITIZEN_EXCEP,2020-03-23,1,"citizens, residents",0,no policy,0
