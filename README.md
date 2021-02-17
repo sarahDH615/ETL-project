@@ -2,10 +2,10 @@
 Comparing Travel restrictions by Country during COVID-19. 
 
 
-## Extraction Stage **
+## Extraction Stage 
 We chose three data sources based around international Covid-19 data: one describing the travel restrictions each country placed on its own citizens; another showing immigration policy restrictions on people entering each country; and vaccination data for each country. Links to these three datasets can be found in the References section of this README. All the datasets were in CSV format, and were downloaded on 11 February 2021. The immigration policy and travel restrictions datasets are updated daily, so new data has already been entered since our commencing of this project. The CSVs were downloaded to separate Jupyter Notebooks, where the data was cleaned. 
 
-## Transformation Stage **
+## Transformation Stage 
 
 All three datasets went through a similar overall process: a subset of columns being selected from the source CSVs, renaming the chosen columns, removing null/irrelevant values, changing any date columns to the datatype datetime, sorting for the most recent date for each country in the dataset, and dropping all but the most recent date data. More in depth information, including the challenges for each dataset, follows. 
 
@@ -25,9 +25,7 @@ All three datasets went through a similar overall process: a subset of columns b
 * After subsetting the dataframe to remove rows where the country code was null, the remaining NaNs, which were in the total and daily vaccinations columns, were replaced with zeros, so mathematical operations could be done on those columns if necessary. 
 * We also took a subset of the vaccinations dataframe, containing just the country code and the daily vaccinations, setting the daily vaccinations column to a numeric type, so that the dataframe subset could be grouped by country code, and the average vaccinations per day could be found. After only keeping the most recent row for each country code in the main vaccinations dataframe, the average vaccinations were then fed back into the main vaccinations dataframe, and the daily vaccination column deleted. 
 
-## Merging **
-
-<ins>Loading Stage</ins>
+## Loading Stage
 We decided to use a SQL database for our data, as it was possible for our data to be stored in rectangular tables. However, some steps needed to be taken to transform our three cleaned CSVs into appropriate tables.
 
 Please review the [ERD](Covid_restrictions_ERD.png) to visualize the table schemata of the three datasets and how tables were deduced. 
