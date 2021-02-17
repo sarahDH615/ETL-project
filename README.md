@@ -35,6 +35,7 @@ All three datasets went through a similar overall process: a subset of columns b
 
 ## Loading Stage
 <ins>Creation of a Junction Table</ins>
+
 We decided to use a SQL database for our data, as it was possible for our data to be stored in rectangular tables. However, some steps needed to be taken to transform our cleaned CSVs into an appropriate database. This pre-work was done at the end of the policy_clean notebook. 
 
 The vaccinations, travel restrictions, and six immigration policy CSVs were all in the correct form for being made into SQL tables. However, they still needed to be linked to each other, through a joining table of Country and Country ID. This database plan can be seen in our [ERD](Covid_restrictions_ERD.png). The database contains seven tables: 'country', 'vaccinations', 'travel_restrictions', 'full_closures', 'no_closures', 'partial_borders', 'partial_visa', 'partial_citizenship' and 'partial_history'. 
@@ -42,10 +43,12 @@ The vaccinations, travel restrictions, and six immigration policy CSVs were all 
 In order to create this junction table, the vaccination and travel restrictions CSVs were read into the Policy notebook. Each dataframe was reduced to its Country and Country ID columns. The three dataframes were merged together in two steps, and the resulting dataframe was checked for duplicates and null values, sorted by Country name, and exported.
 
 <ins>Importing into PostgreSQL</ins>
+
 From our ERD work, we exported a SQL file for input into our SQL database Covid_restrictions_db, resulting in empty tables. We then created a new Jupyter Notebook, merging_notebook, for inserting the data into those tables. Each of the cleaned CSVs were read into the notebook, and, after establishing a conection to the database and dropping any existing table rows (to ensure duplicates wouldn’t be added if the code was run multiple times), was read into the corresponding Covid_restrictions_db empty table. Finally, we checked the proper entry of values by conducting some select all queries within the notebook. 
 
 
 <ins> References</ins>
+
 Buggaveeti, Padmaja. (2021 January 27). Covid Vaccination Dataset - 2021. Kaggle. https://www.kaggle.com/padmajabuggaveeti/covid-vaccination-dataset-2021. Accessed 2021 February 11. 
 
 Centre for Humanitarian Data. (2021 February 11). COVID-19 Global Travel Restrictions and Airline Information. Humanitarian Data Exchange. https://data.humdata.org/dataset/covid-19-global-travel-restrictions-and-airline-information. Accessed 2021 February 11. 
