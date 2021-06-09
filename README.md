@@ -27,10 +27,20 @@ All three datasets went through a similar overall process: a subset of columns b
 
 <ins>Vaccinations cleaning</ins>
 * The columns kept were 'location', 'iso_code', 'date', 'total_vaccinations', and 'Daily_vaccinations', which were renamed to more informative names (country, country code, vaccination date, total vaccinations and daily vaccinations). Only 58 country codes (plus the category ‘World’, which was eventually dropped) had vaccination data in the source CSV, in contrast to 243 in the Immigration Policy, and 267 in the Travel Restrictions ones, which had to be addressed in the merging stage when creating tables.
+![Subsetting Columns](/images/vacc_colSubset.png)
+![Renaming Columns](/images/vacc_colRename.png)
 * There were many ‘null’ rows, which we thought might contain countries that had country codes that were ambiguous or controversial. For example, some countries were segmented such as: 'England', 'European Union', 'Northern Cyprus', 'Northern Ireland',  'Scotland', and 'Wales'. The number of vaccinations for those countries in the UK were found to equal the total number of vaccinations for rows labelled ‘United Kingdom’, so one or the other could be deleted. The other datasets had information only for the United Kingdom as a whole, so the rows for the individual countries in the UK were dropped, along with the ‘EU’ rows, which, while perhaps useful for other analyses, were not under our scope of individual nations, and along with the ‘Northern Cyprus’ rows, which weren’t found in the other datasets. 
+![Checking for null Country IDs](/images/vacc_vacc_nullCountryIDs.png)
+![Checking UK totals](/images/vacc_checkingUKcountries.png)
+![Removing Duplicate Countries](/images/vacc_droppingnullCountryIDs.png)
 * After subsetting the dataframe to remove rows where the country code was null, the remaining NaNs, which were in the total and daily vaccinations columns, were replaced with zeros, so mathematical operations could be done on those columns if necessary. 
+![Removing Remaining NaNs](/images/vacc_nansToZeros.png)
 * We also took a subset of the vaccinations dataframe, containing just the country code and the daily vaccinations, setting the daily vaccinations column to a numeric type, so that the dataframe subset could be grouped by country code, and the average vaccinations per day could be found. After only keeping the most recent row for each country code in the main vaccinations dataframe, the average vaccinations were then fed back into the main vaccinations dataframe, and the daily vaccination column deleted.
-
+![Creating a subset](/images/vacc_subsetDF.png)
+![Grouping, Finding Avg Vaccine Rate](/images/vacc_groupbyCountryID.png)
+![Saving the means](/images/vacc_dailyVaccMean.png)
+![Creating final df](/images/vacc_createLastDateDF.png)
+![Adding the means](/images/vacc_addAvgVacc.png)
 
 <ins>Immigration Policy cleaning</ins>
 * Many of the columns from the original dataset were kept, as we wanted to have information on all the different kinds of bans/exceptions.
