@@ -13,10 +13,15 @@ All three datasets went through a similar overall process: a subset of columns b
 
 <ins>Travel Restrictions cleaning</ins>
 * Had to decide to enter “unknown” for NaNs in Quarantine Type column. 
+![Dropping Nans](/images/TravRes_removeNans.png)
 * Dropping rows where country IDs are either “x--” or more then 2 Country IDs. These are territories of larger countries and do not have specific quarantine data.
+![Sample Processing](/images/TravRes_dupIDs.png)
 * The Quarantine start date column was reformatted to fit datetime structure, NaNs were replaced with placeholder dates, as well as changing an obvious error ('04-02-20201') to an educated guess (‘04-02-20'), all in order to match the date columns of the other two datasets.
+![Date Changes](/images/TravRes_dateReplace.png)
 * There were several duplicated Country ID columns, which mostly derived from outlying islands being counted separately from the mainland areas. We decided to discard the rows relating to those island territories, keeping only mainland data. 
+![Duplicate ID removal](/images/TravRes_replaceCountryIDs.png)
 * We also discovered that the signs for ‘new line’ and ‘break’ were showing up within the text for the Quarantine column, so they were removed with replace statements. 
+![Remove Breaks](/images/TravRes_removeInlineBreaks.png)
 
 
 <ins>Vaccinations cleaning</ins>
