@@ -45,11 +45,21 @@ All three datasets went through a similar overall process: a subset of columns b
 <ins>Immigration Policy cleaning</ins>
 * Many of the columns from the original dataset were kept, as we wanted to have information on all the different kinds of bans/exceptions.
 * The columns dropped were the ISO2 country code, as the other datasets used ISO3; the ‘END_DATE’ column, in preference to the ‘START_DATE’ column; and the ‘SOURCE’ columns. 
-* The dataset dcumentation explained that whether some columns had information depended on whether the Policy type was complete or partial: where columns relating to one policy type were on rows relating to the other policy type, NaNs would be found (as well as, in the case of partial policies, where the partial policy did not cover some land/sea/air borders). We decided to replace those NaNs with ‘no further information found’. 
+* The dataset dcumentation explained that whether some columns had information depended on whether the Policy type was complete or partial: where columns relating to one policy type were on rows relating to the other policy type, NaNs would be found (as well as, in the case of partial policies, where the partial policy did not cover some land/sea/air borders). We decided to replace those NaNs with ‘no policy’. 
+![Adding the means](/images/pol_replNansNoPolicy.png)
 * The ‘Policy_start_date’ (the name we gave to the ‘START_DATE’ column) was used in this project as an indicator of the most recent policy, as it was more likely that a policy still ongoing would not have an end date listed. The ‘Policy_start_date’ column was edited by replacing underscores with slashes for better conversion to datetime. Additionally, values of ‘NONE’ or ‘0’ were replaced with a placeholder date of ‘01-01-01’, as the column could not be converted to datetime if there were any non-date-like values within it. Finally, there was a date within the column that seemed impossible: 31 April 2020. We took an educated guess that it was an entry error, and that 21 April 2020 was meant, and replaced that date with our guess date. Once this pre-work was complete, the conversion to datetime was done, and the dataframe was sorted by country code, then date, and only the rows with the most recent date for each country were kept. 
+![Adding the means](/images/pol_datesList.png)
+![Adding the means](/images/pol_replwDatesList.png)
+![Adding the means](/images/pol_doubleSorted.png)
+![Adding the means](/images/pol_keepLastDate.png)
 * As in the other datasets, we found some Country IDs that needed to be dropped. In this dataset, one was, like in Travel Restrictions, due to outlying islands being counted separately from the rest of a country; another was due to a self-declared independent area not mentioned in the other datasets; a third used a different Country ID for a country already counted in the dataset. All three of these IDs were dropped.
+![Adding the means](/images/pol_IDsToDrop.png)
+![Adding the means](/images/pol_dropIDs.png)
 * We decided to divide the data by their Policy Types and Subtypes, resulting in six dataframes, which would eventually form six of the tables in our database: one for full closures, one for no closures, and four for the Subtypes of partial closures. 
-
+![Full Bans DF](/images/pol_completeBan.png)
+![First separation of partial bans](/images/pol_partial1stSep.png)
+![Full separation of partial bans](/images/pol_partialFull.png)
+![Replace NaNs](/images/pol_noPolicy.png)
 
 ## Loading Stage
 <ins>Creation of a Junction Table</ins>
