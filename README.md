@@ -69,10 +69,17 @@ We decided to use a SQL database for our data, as it was possible for our data t
 The vaccinations, travel restrictions, and six immigration policy CSVs were all in the correct form for being made into SQL tables. However, they still needed to be linked to each other, through a joining table of Country and Country ID. This database plan can be seen in our [ERD](Covid_restrictions_ERD.png). The database contains nine tables: 'country', 'vaccinations', 'travel_restrictions', 'full_closures', 'no_closures', 'partial_borders', 'partial_visa', 'partial_citizenship' and 'partial_history'. 
 
 In order to create this junction table, the vaccination and travel restrictions CSVs were read into the Policy notebook. Each dataframe was reduced to its Country and Country ID columns. The three dataframes were merged together in two steps, and the resulting dataframe was checked for duplicates and null values, sorted by Country name, and exported.
+![Create Junction Table](/images/join_createJunctionTable.png)
+![View Junction Table](/images/join_JTabHead.png)
 
 <ins>Importing into PostgreSQL</ins>
 
 From our ERD work, we exported a SQL file for input into our SQL database Covid_restrictions_db, resulting in empty tables. We then created a new Jupyter Notebook, merging_notebook, for inserting the data into those tables. Each of the cleaned CSVs were read into the notebook, and, after establishing a conection to the database and dropping any existing table rows (to ensure duplicates wouldn’t be added if the code was run multiple times), was read into the corresponding Covid_restrictions_db empty table. Finally, we checked the proper entry of values by conducting some select all queries within the notebook. 
+![SQL connection](/images/sql_connect.png)
+![Drop existing tables](/images/sql_dropExisting.png)
+![First load](/images/sql_loadTables1.png)
+![Second load](/images/sql_loadTables2.png)
+![Tests](/images/sql_test.png)
 
 
 ## <ins> References</ins>
