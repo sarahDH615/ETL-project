@@ -19,7 +19,8 @@ All three datasets went through a similar overall process: a subset of columns b
 * The Quarantine start date column was reformatted to fit datetime structure, NaNs were replaced with placeholder dates, as well as changing an obvious error ('04-02-20201') to an educated guess (‘04-02-20'), all in order to match the date columns of the other two datasets.
 ![Date Changes](/images/TravRes_dateReplace.png)
 * There were several duplicated Country ID columns, which mostly derived from outlying islands being counted separately from the mainland areas. We decided to discard the rows relating to those island territories, keeping only mainland data. 
-![Duplicate ID removal](/images/TravRes_replaceCountryIDs.png)
+![Duplicate ID list](/images/TravRes_dupIDs.png)
+![Duplicate ID removal](/images/TravRes_dropDups.png)
 * We also discovered that the signs for ‘new line’ and ‘break’ were showing up within the text for the Quarantine column, so they were removed with replace statements. 
 ![Remove Breaks](/images/TravRes_removeInlineBreaks.png)
 
