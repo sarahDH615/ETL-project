@@ -7,9 +7,7 @@ We chose three data sources based around international Covid-19 data: one descri
 
 ## Transformation Stage 
 
-<p>
-    <img src='/images/sampleProcessing.png' width=1000>
-</p>
+![Sample Processing](sampleProcessing.png)
 
 All three datasets went through a similar overall process: a subset of columns being selected from the source CSVs, renaming the chosen columns, removing null/irrelevant values, changing any date columns to the datatype datetime, sorting for the most recent date for each country in the dataset, and dropping all but the most recent date data. More in depth information, including the challenges for each dataset, follows. 
 
