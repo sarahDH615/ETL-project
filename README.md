@@ -3,7 +3,7 @@ Comparing Travel restrictions by Country during COVID-19.
 
 
 ## Extraction Stage 
-We chose three data sources based around international Covid-19 data: one describing the travel restrictions each country placed on its own citizens; another showing immigration policy restrictions on people entering each country; and vaccination data for each country. Links to these three datasets can be found in the References section of this README. All the datasets were in CSV format, and were downloaded on 11 February 2021. The immigration policy and travel restrictions datasets are updated daily, so new data has already been entered since our commencing of this project. The CSVs were downloaded to separate Jupyter Notebooks, where the data was cleaned. 
+We chose three data sources based around international Covid-19 data: one describing the travel restrictions each country placed on its own citizens; another showing immigration policy restrictions on people entering each country; and vaccination data for each country. Links to these three datasets can be found in the [References](#-references) section of this README. All the datasets were in CSV format, and were downloaded on 11 February 2021. The immigration policy and travel restrictions datasets are updated daily, so new data has already been entered since our commencing of this project. The CSVs were downloaded to separate Jupyter Notebooks, where the data was cleaned. 
 
 ## Transformation Stage 
 
